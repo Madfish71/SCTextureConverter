@@ -1,0 +1,27 @@
+# Configuration file for Star Citizen Texture Converter
+# -----------------------------------------------------
+# Edit each option below as needed. Use lowercase only.
+# Make a backup copy of this file so you can go back to
+# default settings later if you make a mistake.
+
+# verbose [true / false] : prints all program messages to the screen.
+
+verbose = false
+
+# recursive [true / false] : checks all sub-directories for files to unsplit and convert.
+
+recursive = true
+
+# clean [true / false] : deletes the dds part files (*.dds.0, *.dds.1, ...etc) after each file is successfully converted.
+
+clean = false
+
+# merge_gloss [true / false] : recombines the gloss maps into the alpha channel of the matching *.ddna normal map 
+#(for CryEngine/Lumberyard). If 'false' the ddna and gloss map will be saved as two separate files.
+
+merge_gloss = true
+
+# format [tif / png / tga] : the file format you want for the texture file. 
+#( note: jpg will not save any transparency information).
+
+format = tif
